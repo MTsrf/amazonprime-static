@@ -1,0 +1,258 @@
+@font-face {
+    font-family: Amazon Ember Light;
+    src: url(/assets/font/Amazon\ Ember\ Light.ttf);
+  
+}
+
+*{
+    margin: 0;
+    font-family: Amazon Ember Light;
+}
+h1{
+    font-size: 45px;
+    font-weight: 200;
+}
+header{
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: #0f171e;
+    padding: 25px;
+    z-index: 100;
+}
+header .navbar{
+    display: flex;
+    max-width: 1415px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+}
+.logo img{
+    width: 112px;
+    margin: auto;
+ 
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    color: #8197a4;
+}
+.nav_list .lang{
+    display: flex;
+}
+.nav_list .lang i{
+    margin-top: 6px;
+}
+.eng{
+    margin: 0 7px;
+}
+.sign_btn button{
+    background: none;
+    border: none;
+    color: #8197a4;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: Amazon Ember Light;
+}
+
+
+
+
+
+
+
+
+#banner{
+    background-image: url("../img/MLP.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.banner .content{
+    color: white;
+    padding: 65px 5%;
+}
+.head{
+    margin: 48px 0 0 0;
+}
+.sub_describ{
+    max-width: 40%;
+    margin-top: 24px;
+}
+.sub_describ p{
+    font-size: 22px;
+    font-family: Amazon Ember Light;
+    font-weight: 200;
+    line-height: 20px;
+}
+.btn_bnr button{
+    padding: 13px 49px;
+    margin: 24px 0 0 0;
+    border-radius: 5px;
+    background-color: #00a0d6;
+    border: none;
+    color: #fff;
+    font-family: Amazon Ember Light;
+    font-size: 17px;
+
+}
+.btn_para p{
+    margin: 10px 36px;
+    font-family: Amazon Ember Light;
+}
+
+
+
+
+
+
+.channels{
+    display: flex;
+    padding: 10px 5%;
+}
+.channels .left_channel,
+.channels .right_channel{
+    width: 50%;
+}
+.right_channel{
+    max-width: 800px;   
+    display: flex;
+    flex-flow: row wrap;
+  
+}
+.grd_fst{
+    display: flex;
+    flex: 32%;
+    padding: 0;
+    margin: 3px;
+    z-index: 1;
+}
+.grd_fst img{
+    width: 100%;
+}
+.grd_fst img:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 5px #453c64db;
+    
+}
+.channels .left_channel h1{
+    margin: 35px 68px 34px 0;
+
+}
+.channels .left_channel p{
+    font-size: 24px;
+    line-height: 37.8px;
+    margin: 0 56px 0 0;
+}
+
+
+
+
+#member{
+    background-image: url("../img/screen2.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.member .prime{
+    padding: 50px 5%;
+    color: white;
+}
+.prime h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px 0 ;
+}
+.prime p{
+    font-size: 21px;
+    max-width: 579px;
+    line-height: 28px;
+}
+.member .prime button{
+    margin-top: 58px;
+    padding: 16px 18px;
+    min-width: 280px;
+    background-color: #0F79AF;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+#tv{
+    background-image: url("../img/Screen3.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.tv .tv_content{
+    margin-left: 50%;
+    padding: 50px 5%;
+    color: white;
+}
+.tv .tv_content h1{
+    font-weight: 700;
+}
+.tv .tv_content p{
+    font-size: 21px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+.tv .tv_content button{
+    margin-top: 58px;
+    padding: 16px 18px;
+    min-width: 280px;
+    background-color: #0F79AF;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+#children{
+    background-image: url("../img/screen4.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.children .child_content{
+    padding: 50px 5%;
+    color: white;
+}
+.children .child_content h1{
+    font-weight: 700;
+}
+.children .child_content p{
+    font-size: 21px;
+    max-width: 579px;
+    line-height: 28px;
+    margin-top: 24px;
+
+}
+.children .child_content button{
+    margin-top: 58px;
+    padding: 16px 18px;
+    min-width: 280px;
+    background-color: #0F79AF;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.footer{
+    background-color: #0f171e;
+    color: #8197a4;
+}
+
+.footer .footr{
+    padding: 24px;
+    text-align: center;
+}
+.footer .footr p span{
+    color: #00a0d6;
+}
